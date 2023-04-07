@@ -1,0 +1,35 @@
+
+.productIcon{
+    visibility: hidden;
+    transition:.3s ease ;
+    -webkit-transition:.3s ease ;
+    -moz-transition:.3s ease ;
+    -ms-transition:.3s ease ;
+    -o-transition:.3s ease ;
+    position:absolute;
+    right:0;
+    transition-duration: 300;
+    z-index: 0;
+}
+.productContainer:hover .productIcon{
+    visibility: visible;
+    right:35px;
+    z-index: 10;
+
+}
+.productBtn{
+    visibility:hidden;
+    position:absolute;
+    bottom:-80px;
+    z-index: 0;
+    transition:.5s ease-in;
+    -webkit-transition:.5s ease-in;
+    -moz-transition:.5s ease-in;
+    -ms-transition:.5s ease-in;
+    -o-transition:.5s ease-in;
+    transition-duration: 300;
+}
+.productContainer:hover .productBtn{
+    visibility: visible;
+    bottom:40px;
+}
