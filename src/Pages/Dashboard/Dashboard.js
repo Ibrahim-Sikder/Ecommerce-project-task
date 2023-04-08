@@ -115,19 +115,18 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
    
     
     return (
-        <div className='my-24'>
+        <div className='my-5'>
             <div className=" ourDashboard grid grid-cols-12">
                 <div className="dashBoardLeft  col-span-3">
                 <div>
 
      <div className="leftSideBar">
-     <div>Dashboard</div>
-      <div>All Seller</div>
-      <div>Buyer</div>
-      <div>User</div>
+     <div>Admin dashboard</div>
+      <div>Admin customer list</div>
+      <div>Admin order list</div>
+      <div>Admin product list</div>
       <div>Reviewer</div>
      </div>
-      <button className='dashBoardBtn'>Customize</button>
     </div>
                 </div>
                 <div className="dashBoardRight  col-span-9">
@@ -143,17 +142,6 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
                       </div>
                     </div>
                    </div>
-                   {/* <div className="nameWrap downWrap py-5 px-3">
-                   <div className="projectName">
-                      <h2 className='text-black'>Dashboard</h2>
-                    </div>
-                    <div className="dashBoardIcons">
-                      <div className="iconsWrap flex">
-                      <button className="btn btn-secondary text-white bg-[#6D28D9]">View on Github</button>
-                        
-                      </div>
-                    </div>
-                   </div> */}
                     <div className="nameWrap downWrap py-5 px-3 mb-5">
                         <div className="value">
                           <div className="valueWrap firstCard">
@@ -200,26 +188,26 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
                    
                     <div className="barChart">
                     <BarChart
-      width={500}
-      height={300}
-      data={data}
-      margin={{
-        top: 5,
-        right: 30,
-        left: 20,
-        bottom: 5
-      }}
-    >
-      <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="name" />
-      <YAxis />
-      <Tooltip />
-      <Legend />
-      <Bar dataKey="pv" fill="#8884d8" />
-      <Bar dataKey="uv" fill="#82ca9d" />
-    </BarChart>
-    <h2 className='text-xl centerText font-bold text-[#6D28D9]'>Appartments Rent Chart </h2>
-                    </div>
+                        width={500}
+                        height={300}
+                        data={data}
+                        margin={{
+                            top: 5,
+                            right: 30,
+                            left: 20,
+                            bottom: 5
+                        }}
+                        >
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="name" />
+                        <YAxis />
+                        <Tooltip />
+                        <Legend />
+                        <Bar dataKey="pv" fill="#8884d8" />
+                        <Bar dataKey="uv" fill="#82ca9d" />
+                        </BarChart>
+                        <h2 className='text-xl centerText mt-24 font-bold text-[#6D28D9]'>Appartments Rent Chart </h2>
+                                        </div>
                     <div className="pieChart">
               <PieChart width={400} height={400}>
              <Pie

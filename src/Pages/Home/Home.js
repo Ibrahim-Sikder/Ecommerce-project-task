@@ -1,14 +1,15 @@
 import React from 'react';
 import Hero from '../../components/Hero';
 import Product from '../Product/Product';
-import Dashboard from '../Dashboard/Dashboard';
+import AddToCart from '../AddToCart/AddToCart';
+
 
 
 
 const Home = () => {
     return (
         <div>
-            <Dashboard></Dashboard>
+        <AddToCart></AddToCart>
             <Hero></Hero>
             <Product></Product>
         </div>
