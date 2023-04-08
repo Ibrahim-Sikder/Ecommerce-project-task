@@ -9,12 +9,16 @@ import product7 from '../../Asset/product-img-2.6.jpg';
 import product8 from '../../Asset/product-img-2.8.jpg';
 import product9 from '../../Asset/product-img-2.7.jpg';
 import product10 from '../../Asset/campain.jpg';
+import furniture from '../../Asset/ads-2.1.png';
+import furniture2 from '../../Asset/ads-2.2.png';
+import furniture3 from '../../Asset/ads-2.3.png';
 import { FaHeart } from "react-icons/fa";
 import './Product.css';
 const Product = () => {
     return (
         
         <div className='w-11/12 mx-auto my-10'>
+            {/* Feature products */}
             <h2 className='text-3xl bold mb-5 font-bold'>Featured Products </h2>
            <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-10">
            <div className="productContainer w-[360px] h-[440px] text-center bg-white  relative">
@@ -29,7 +33,7 @@ const Product = () => {
             <div className=" productBtn absolute bottom-10 left-[90px]">
                     <button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button>
                 </div>
-                <div className='absolute duration-300  ease-in productIcon right-8 top-24 z-10'>
+                <div className='absolute duration-300  ease-in productIcon right-[-50px]  top-24 z-10'>
                     <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
                     <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
                     <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
@@ -143,6 +147,60 @@ const Product = () => {
                     <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
                 </div>
             </div>
+            <div className="productContainer w-[360px] h-[440px] text-center bg-white  relative">
+                <div className="ProductCard flex justify-center items-center">
+                    <img src={product7} alt="" />
+                </div>
+                <div className="productText absolute bottom-6 left-[45px]">
+                <h2 className='text-2xl bold '>Callflex dolore eiusmod</h2>
+                <p className='text-xl'><span className='text-red-400'>BDT18.34</span> <del>BDT34.55</del></p>
+                
+            </div>
+            <div className=" productBtn absolute bottom-10 left-[90px]">
+                    <button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button>
+                </div>
+                <div className='absolute duration-300  ease-in productIcon right-8 top-24 z-10'>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                </div>
+            </div>
+            <div className="productContainer w-[360px] h-[440px] text-center bg-white  relative">
+                <div className="ProductCard flex justify-center items-center">
+                    <img src={product7} alt="" />
+                </div>
+                <div className="productText absolute bottom-6 left-[45px]">
+                <h2 className='text-2xl bold '>Callflex dolore eiusmod</h2>
+                <p className='text-xl'><span className='text-red-400'>BDT18.34</span> <del>BDT34.55</del></p>
+                
+            </div>
+            <div className=" productBtn absolute bottom-10 left-[90px]">
+                    <button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button>
+                </div>
+                <div className='absolute duration-300  ease-in productIcon right-8 top-24 z-10'>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                </div>
+            </div>
+            <div className="productContainer w-[360px] h-[440px] text-center bg-white  relative">
+                <div className="ProductCard flex justify-center items-center">
+                    <img src={product7} alt="" />
+                </div>
+                <div className="productText absolute bottom-6 left-[45px]">
+                <h2 className='text-2xl bold '>Callflex dolore eiusmod</h2>
+                <p className='text-xl'><span className='text-red-400'>BDT18.34</span> <del>BDT34.55</del></p>
+                
+            </div>
+            <div className=" productBtn absolute bottom-10 left-[90px]">
+                    <button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button>
+                </div>
+                <div className='absolute duration-300  ease-in productIcon right-8 top-24 z-10'>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                </div>
+            </div>
            </div>
            <div>
             <div className="flashSale my-10 relative">
@@ -164,12 +222,73 @@ const Product = () => {
                     <p className='my-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Rerum, Lorem ipsum dolor sit amet. sint.</p>
                     <button className='bg-[#FFBB38] px-8 py-2'>Shop Now</button>
                 </div>
-                <div>
-
-                </div> 
+                
             </div>
            </div>
-          
+           {/* Furniture */}
+            <div className="furniture flex justify-between mb-10">
+                <img src={furniture} alt="" />
+                <img src={furniture2} alt="" />
+            </div>
+            {/* Popular Sale */}
+            <h2 className='text-3xl bold mb-5 font-bold'>Popular Sales </h2>
+           <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-10">
+           <div className="productContainer w-[360px] h-[440px] text-center bg-white  relative">
+                <div className="ProductCard flex justify-center items-center">
+                    <img src={product} alt="" />
+                </div>
+                <div className="productText absolute bottom-6 left-[45px]">
+                <h2 className='text-2xl bold '>Callflex dolore eiusmod</h2>
+                <p className='text-xl'><span className='text-red-400'>BDT18.34</span> <del>BDT34.55</del></p>
+                
+            </div>
+            <div className=" productBtn absolute bottom-10 left-[90px]">
+                    <button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button>
+                </div>
+                <div className='absolute duration-300  ease-in productIcon right-[-50px]  top-24 z-10'>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                </div>
+            </div>
+            <div className="productContainer w-[360px] h-[440px] text-center bg-white  relative">
+                <div className="ProductCard flex justify-center items-center">
+                    <img src={product1} alt="" />
+                </div>
+                <div className="productText absolute bottom-6 left-[45px]">
+                <h2 className='text-2xl bold '>Callflex dolore eiusmod</h2>
+                <p className='text-xl'><span className='text-red-400'>BDT18.34</span> <del>BDT34.55</del></p>
+                
+            </div>
+            <div className=" productBtn absolute bottom-10 left-[90px]">
+                    <button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button>
+                </div>
+                <div className='absolute duration-300  ease-in productIcon right-8 top-24 z-10'>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                </div>
+            </div>
+            <div className="productContainer w-[360px] h-[440px] text-center bg-white  relative">
+                <div className="ProductCard flex justify-center items-center">
+                    <img src={product2} alt="" />
+                </div>
+                <div className="productText absolute bottom-6 left-[45px]">
+                <h2 className='text-2xl bold '>Callflex dolore eiusmod</h2>
+                <p className='text-xl'><span className='text-red-400'>BDT18.34</span> <del>BDT34.55</del></p>
+                
+            </div>
+            <div className=" productBtn absolute bottom-10 left-[90px]">
+                    <button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button>
+                </div>
+                <div className='absolute duration-300  ease-in productIcon right-8 top-24 z-10'>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                    <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
+                </div>
+            </div>
+           </div>
+            
         </div>
     );
 };

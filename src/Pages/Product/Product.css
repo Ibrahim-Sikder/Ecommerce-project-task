@@ -4,19 +4,18 @@
 Feature Products
 */
 .productIcon{
-    visibility: hidden;
+    visibility: hidden !important;
     transition:.3s ease ;
     -webkit-transition:.3s ease ;
     -moz-transition:.3s ease ;
     -ms-transition:.3s ease ;
     -o-transition:.3s ease ;
     position:absolute;
-    right:0;
+    right:-30px !important;
     transition-duration: 300;
-    z-index: 0;
 }
 .productContainer:hover .productIcon{
-    visibility: visible;
+    visibility: visible !important;
     right:35px;
     z-index: 10;
 
