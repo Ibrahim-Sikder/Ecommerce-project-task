@@ -1,4 +1,8 @@
 
+
+*/
+Feature Products
+*/
 .productIcon{
     visibility: hidden;
     transition:.3s ease ;
@@ -32,4 +36,12 @@
 .productContainer:hover .productBtn{
     visibility: visible;
     bottom:40px;
+}
+.day{
+    border-radius:100%;
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    -ms-border-radius:100%;
+    -o-border-radius:100%;
+    line-height: 100px;
 }
