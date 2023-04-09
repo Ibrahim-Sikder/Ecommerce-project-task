@@ -26,6 +26,7 @@ import {
   PieChart,
   BarChart,
 } from 'recharts';
+import { Link } from 'react-router-dom';
 
 
 
@@ -124,7 +125,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
      <div>Admin dashboard</div>
       <div>Admin customer list</div>
       <div>Admin order list</div>
-      <div>Admin product list</div>
+      <Link to='/addproduct'><div>Add product</div></Link>
       <div>Reviewer</div>
      </div>
     </div>

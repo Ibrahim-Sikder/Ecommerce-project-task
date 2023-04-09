@@ -14,6 +14,7 @@ import furniture2 from '../../Asset/ads-2.2.png';
 import furniture3 from '../../Asset/ads-2.3.png';
 import { FaHeart } from "react-icons/fa";
 import './Product.css';
+import { Link } from 'react-router-dom';
 const Product = () => {
     return (
         
@@ -31,7 +32,7 @@ const Product = () => {
                 
             </div>
             <div className=" productBtn absolute bottom-10 left-[90px]">
-                    <button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button>
+                    <Link to='/cart'><button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button></Link>
                 </div>
                 <div className='absolute duration-300  ease-in productIcon right-[-50px]  top-24 z-10'>
                     <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
@@ -49,7 +50,7 @@ const Product = () => {
                 
             </div>
             <div className=" productBtn absolute bottom-10 left-[90px]">
-                    <button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button>
+            <Link to='/cart'><button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button></Link>
                 </div>
                 <div className='absolute duration-300  ease-in productIcon right-8 top-24 z-10'>
                     <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
@@ -67,7 +68,7 @@ const Product = () => {
                 
             </div>
             <div className=" productBtn absolute bottom-10 left-[90px]">
-                    <button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button>
+            <Link to='/cart'><button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button></Link>
                 </div>
                 <div className='absolute duration-300  ease-in productIcon right-8 top-24 z-10'>
                     <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
@@ -85,7 +86,7 @@ const Product = () => {
                 
             </div>
             <div className=" productBtn absolute bottom-10 left-[90px]">
-                    <button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button>
+            <Link to='/cart'><button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button></Link>
                 </div>
                 <div className='absolute duration-300  ease-in productIcon right-8 top-24 z-10'>
                     <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
@@ -103,7 +104,7 @@ const Product = () => {
                 
             </div>
             <div className=" productBtn absolute bottom-10 left-[90px]">
-                    <button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button>
+            <Link to='/cart'><button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button></Link>
                 </div>
                 <div className='absolute duration-300  ease-in productIcon right-8 top-24 z-10'>
                     <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
@@ -121,7 +122,7 @@ const Product = () => {
                 
             </div>
             <div className=" productBtn absolute bottom-10 left-[90px]">
-                    <button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button>
+            <Link to='/cart'><button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button></Link>
                 </div>
                 <div className='absolute duration-300  ease-in productIcon right-8 top-24 z-10'>
                     <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
@@ -157,7 +158,7 @@ const Product = () => {
                 
             </div>
             <div className=" productBtn absolute bottom-10 left-[90px]">
-                    <button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button>
+            <Link to='/cart'><button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button></Link>
                 </div>
                 <div className='absolute duration-300  ease-in productIcon right-8 top-24 z-10'>
                     <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
@@ -175,7 +176,7 @@ const Product = () => {
                 
             </div>
             <div className=" productBtn absolute bottom-10 left-[90px]">
-                    <button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button>
+            <Link to='/cart'><button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button></Link>
                 </div>
                 <div className='absolute duration-300  ease-in productIcon right-8 top-24 z-10'>
                     <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
@@ -243,7 +244,7 @@ const Product = () => {
                 
             </div>
             <div className=" productBtn absolute bottom-10 left-[90px]">
-                    <button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button>
+            <Link to='/cart'><button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button></Link>
                 </div>
                 <div className='absolute duration-300  ease-in productIcon right-[-50px]  top-24 z-10'>
                     <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
