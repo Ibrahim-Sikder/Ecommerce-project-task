@@ -2,7 +2,7 @@ import React from 'react';
 import hero from '../Asset/phone3.png'
 const Hero = () => {
     return (
-        <div className='hero-area grid lg:grid-cols-2 items-center bg-[#0E0F20] text-white px-10 py-24'>
+        <div className='hero-area grid lg:grid-cols-2 items-center bg-[#2D6F6D] text-white px-10 py-24'>
             
             <div className=''>
                <h2 className='animate__rollIn animate__animated  animate__delay-.5s text-5xl font-bold font-fugiat mb-5 uppercase italic '>Welcome to my shop</h2>

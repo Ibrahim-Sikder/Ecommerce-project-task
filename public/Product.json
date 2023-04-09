@@ -1,0 +1,92 @@
+[
+    {
+      "category_id": 1,
+      "name": "Callflex dolore eiusmod",
+      "location": "Balagonj",
+      "originalPrice": 150000,
+      "resalePrice": 90000,
+      "yearsOfUsed": 2,
+      "publishDate": "03-08-22",
+      "information": "Many smartphone-savvy consumers might argue that the joy of purchasing a second hand phone is nothing compared to the excitement of unwrapping a brand new",
+      "author": [
+        {
+          "authorName": "Ibrahim Sikder",
+          "authorImg": "",
+          "review": "5 Start"
+        }
+      ],
+      "mobileImg": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41LHqAXFaeL.jpg"
+    },
+    {
+        "category_id": 1,
+        "name": "Callflex dolore eiusmod",
+        "location": "Balagonj",
+        "originalPrice": 150000,
+        "resalePrice": 90000,
+        "yearsOfUsed": 2,
+        "publishDate": "03-08-22",
+        "information": "Many smartphone-savvy consumers might argue that the joy of purchasing a second hand phone is nothing compared to the excitement of unwrapping a brand new",
+        "author": [
+          {
+            "authorName": "Ibrahim Sikder",
+            "authorImg": "",
+            "review": "5 Start"
+          }
+        ],
+        "mobileImg": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41LHqAXFaeL.jpg"
+      },
+      {
+        "category_id": 1,
+        "name": "Callflex dolore eiusmod",
+        "location": "Balagonj",
+        "originalPrice": 150000,
+        "resalePrice": 90000,
+        "yearsOfUsed": 2,
+        "publishDate": "03-08-22",
+        "information": "Many smartphone-savvy consumers might argue that the joy of purchasing a second hand phone is nothing compared to the excitement of unwrapping a brand new",
+        "author": [
+          {
+            "authorName": "Ibrahim Sikder",
+            "authorImg": "",
+            "review": "5 Start"
+          }
+        ],
+        "mobileImg": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41LHqAXFaeL.jpg"
+      },
+      {
+        "category_id": 1,
+        "name": "Callflex dolore eiusmod",
+        "location": "Balagonj",
+        "originalPrice": 150000,
+        "resalePrice": 90000,
+        "yearsOfUsed": 2,
+        "publishDate": "03-08-22",
+        "information": "Many smartphone-savvy consumers might argue that the joy of purchasing a second hand phone is nothing compared to the excitement of unwrapping a brand new",
+        "author": [
+          {
+            "authorName": "Ibrahim Sikder",
+            "authorImg": "",
+            "review": "5 Start"
+          }
+        ],
+        "mobileImg": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41LHqAXFaeL.jpg"
+      },
+      {
+        "category_id": 1,
+        "name": "Callflex dolore eiusmod",
+        "location": "Balagonj",
+        "originalPrice": 150000,
+        "resalePrice": 90000,
+        "yearsOfUsed": 2,
+        "publishDate": "03-08-22",
+        "description": "Many smartphone-savvy consumers might argue that the joy of purchasing a second hand phone is nothing compared to the excitement of unwrapping a brand new",
+        "author": [
+          {
+            "authorName": "Ibrahim Sikder",
+            "authorImg": "",
+            "review": "5 Start"
+          }
+        ],
+        "mobileImg": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41LHqAXFaeL.jpg"
+      }
+]

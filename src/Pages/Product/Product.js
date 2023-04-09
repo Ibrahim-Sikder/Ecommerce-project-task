@@ -34,7 +34,7 @@ const Product = () => {
             <div className=" productBtn absolute bottom-10 left-[90px]">
                     <Link to='/cart'><button className='px-8 py-3 bg-[#2D6F6D] text-white text-xl'>Add to Cart</button></Link>
                 </div>
-                <div className='absolute duration-300  ease-in productIcon right-[-50px]  top-24 z-10'>
+                <div className='absolute duration-300  ease-in productIcon right-8  top-24 z-10'>
                     <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
                     <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>
                     <FaHeart className='text-4xl bg-[#CCECEB] text-white p-2 mb-2'></FaHeart>

@@ -6,6 +6,9 @@ import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import AddToCart from "../Pages/AddToCart/AddToCart";
 import AddProduct from "../Pages/Dashboard/Admin/AddProduct";
+import PrivateRoute from "./PrivateRoute";
+import Blog from "../Pages/Blog/Blog";
+import Dashboard from "../Pages/Dashboard/Dashboard";
 
 
 
@@ -21,11 +24,15 @@ export const router = createBrowserRouter([
             },
             {
                 path:'/products',
-                element: <Product></Product>
+                element: <PrivateRoute><Product></Product></PrivateRoute>
             },
             {
                 path:'/login',
                 element: <Login></Login>
+            },
+            {
+                path:'/blog',
+                element: <Blog></Blog>
             },
             {
                 path:'/register',
@@ -33,11 +40,15 @@ export const router = createBrowserRouter([
             },
             {
                 path:'/cart',
-                element:<AddToCart></AddToCart>
+                element:<PrivateRoute><AddToCart></AddToCart></PrivateRoute>
             },
             {
                 path:'/addproduct',
-                element:<AddProduct></AddProduct>
+                element:<PrivateRoute><AddProduct></AddProduct></PrivateRoute>
+            },
+            {
+                path:'/dashboard',
+                element:<PrivateRoute><Dashboard></Dashboard></PrivateRoute>
             }
         ]
     },

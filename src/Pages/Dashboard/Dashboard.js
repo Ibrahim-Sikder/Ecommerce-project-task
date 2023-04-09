@@ -2,12 +2,9 @@ import React from 'react';
 // import './OurDashBoard.css';
 import { FaHouseDamage, FaGripHorizontal, FaChartLine, FaBookmark, FaHandHoldingUsd, FaUserAlt,FaScribd, FaSearch,FaUsers, FaStripeS} from "react-icons/fa";
 import dolar2 from '../../Asset/dolar2.jpg'
-import user from '../../Asset/user.png';
-import bar from '../../Asset/bar.jpg';
-import ticket from '../../Asset/ticket.jpg';
 import setting from '../../Asset/setting.png';
 import notify from '../../Asset/notify2.png';
-import users from '../../Asset/users.png';
+
 import './Dashboard.css';
 import {
   ComposedChart,
@@ -116,19 +113,19 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
    
     
     return (
-        <div className='my-5'>
+        <div className='my-10'>
             <div className=" ourDashboard grid grid-cols-12">
                 <div className="dashBoardLeft  col-span-3">
                 <div>
 
-     <div className="leftSideBar">
-     <div>Admin dashboard</div>
-      <div>Admin customer list</div>
-      <div>Admin order list</div>
-      <Link to='/addproduct'><div>Add product</div></Link>
-      <div>Reviewer</div>
-     </div>
-    </div>
+              <div className="leftSideBar">
+              <div>Admin dashboard</div>
+                <div>Admin customer list</div>
+                <div>Admin order list</div>
+                <Link to='/addproduct'><div>Add product</div></Link>
+                <div>Reviewer</div>
+              </div>
+              </div>
                 </div>
                 <div className="dashBoardRight  col-span-9">
                    <div className="nameWrap px-3 py-3">
@@ -136,11 +133,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
                       <h2>Seller Dashboard </h2>
                     </div>
                     <div className="dashBoardIcons">
-                      <div className="iconsWrap flex">
-                        <span> <img src={notify} alt="" /> </span>
-                         <span><img src={setting} alt="" /> </span>
-                        <span> <img src={users} alt="" /> </span>                        
-                      </div>
+                    
                     </div>
                    </div>
                     <div className="nameWrap downWrap py-5 px-3 mb-5">

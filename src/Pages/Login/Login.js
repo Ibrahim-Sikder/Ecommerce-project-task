@@ -31,7 +31,7 @@ const Login = () => {
 
 
     return (
-        <div className='w-full md:w-2/5 p-10 m-auto text-center '>
+        <div className='w-full md:w-2/5 p-10 m-auto text-center bg-[#2D6F6D]'>
         <h1 className='text-3xl text-[#081C15] my-3 font-bold '>Login now</h1>
         <form onSubmit={handleSubmit}>
             <div className="mb-3">
